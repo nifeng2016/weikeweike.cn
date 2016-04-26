@@ -1,0 +1,108 @@
+/*
+HTML 5 Name: MSTC_CQU
+Author: Meng G
+*/
+
+/*PAGE NEWS - postlist & post*/
+
+#container .post-list{
+margin-top: 50px;
+}
+#container .post-list .post{
+border-top: 1px solid #ECEDE8;
+padding: 45px 10px 194px 10px;
+clear: both;
+}
+#container .post-list .post .post-thumb{
+float: left;
+margin: 0 50px 15px 0;
+padding: 0;
+width: 270px;
+height: 150px;
+}
+#container .post-list .post .post-thumb img{
+width: 270px;
+height: 150px;
+}
+#container .post-list .post .post-body{
+width: 500px;
+float: left;
+margin: 0;
+padding: 0;
+font-size: 12px;
+color: #555252;
+font-family: arial,verdana,sans-serif;
+
+}
+#container .post-list .post .post-body h2{
+font-size: 20px;
+font-weight: normal;
+font-family: "Microsoft YaHei","微软雅黑",arial,verdana,sans-serif;
+margin-bottom: 10px;
+color: #6FBBF1;
+}
+
+#container .post-list .post .post-body h2 a:link {color:#6FBBF1;}		/* 未被访问的链接 */
+#container .post-list .post .post-body h2 a:visited {color:#6FBBF1;}	/* 已被访问的链接 */
+#container .post-list .post .post-body h2 a:hover {color:#6FBBF1;}		/* 鼠标指针移动到链接上 */
+#container .post-list .post .post-body h2 a:active {color:#6FBBF1;}
+
+#container .post-content{
+margin: 10px 0;
+color: #888;
+font-size: 15px;
+font-family: arial,verdana,sans-serif;
+}
+#container .post-meta{
+color: #6faee8;
+margin: 0 0 10px 0;
+font-size: 14px;
+}
+
+
+/*PAGE NEWS DETAIL - BLOG*/
+
+#blog{
+margin-top: 50px;
+border-top: 1px solid #ECEDE8;
+padding: 30px 10px 50px 10px;
+clear: both;
+}
+#blog h1{
+font-size: 2.5em;
+text-align: center;
+padding: 0.5em 0 0.3em 0;
+color: #1756B5;
+}
+div#author{
+text-align: right;
+font-size: 1em;
+color: #A9A9AA;
+margin-right: 4em;
+}
+#author a{
+color: #A9A9AA;
+}
+#blog p{
+width: 100%;
+font-size: 1.2em;
+text-indent: 3em;
+word-wrap: break-word; 
+word-spacing: normal; 
+font-style: normal;
+line-height: 2em;
+margin:1em 0 2.3em 0;
+}
+div#blog-img{
+margin: 2em 2em 1em 0;
+float: left;
+}
+#blog-img img{
+box-shadow: -0.3rem 0.6rem 3rem #959595;
+}
+#blog-img div{
+text-align: center;
+color: #4A4A47;
+font-size: 1.2em;
+margin: 0.5em 0 0 1em;
+}

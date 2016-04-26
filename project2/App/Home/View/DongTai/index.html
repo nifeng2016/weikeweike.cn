@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <script type="text/javascript" src="http://localhost/eclipse/project2//public/js/bootstrap.min.js">
+    </script>
+    <link href="http://localhost/eclipse/project2/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body style="height:1000px; background-color:#EDF2F1">
+<div class="container">
+    <br>
+    <h4 align="right"><a href="http://localhost/eclipse/project2/index.php/Home/DongTai/edit"> 发布信息</a></h4>
+</div>
+<div class="container">
+    <div class="row">
+	    
+	        <table class="table table-bordered table-striped">
+	            <thead>
+	            	<tr>
+		                <th class="col-md-8">内容</th>
+		                <th class="col-md-4">发布时间</th>
+		            </tr>
+	            </thead>
+	            <tbody>
+		            <volist name='list' id="list">
+			            <php>
+			            	$url = "http://localhost/eclipse/project2/index.php/Home/DongTai/detail?id=".$list['id'];
+			            </php>
+			            <tr>
+			                <td><a href={$url}>{$list['title']}</a></td>
+			                <td>{$list['time']}</td>
+			            </tr>
+		            </volist>
+	            </tbody>
+	        </table>
+	    	<div align="center">
+		       	{$page}
+		    </div>
+    </div>
+</div>
+</body>
+</html>

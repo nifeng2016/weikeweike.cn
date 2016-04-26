@@ -1,0 +1,6 @@
+[ 2015-12-18T09:46:09+08:00 ] ::1 /project2.1/index.php/Game/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载模块:Game
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main</title>
+<h1 align="center"> 注册登录系统Demo </h1>
+<h4 align="right">当日签到人数：{$signnum}</h4>
+</head>
+<body>
+<p align="right">
+	<php>
+		session_start();
+		$URLSET=C('URLSET');
+		$url1="http://$URLSET/index.php/Home/Main/Maindown";
+		if($LoginName=='') echo "未登录"; 
+		else{
+		//$_SESSION["name"]=$LoginName;
+		echo " <a href='http://$URLSET/index.php/Home/User/UserHome'>$LoginName</a> ";
+	}
+	</php>
+</p>
+	<p align="right">
+	<php>		
+		if($LoginName==''){			
+			echo " <a href='http://$URLSET/index.php/Home/User/Login'>登录</a> ";
+			echo " <a href='http://$URLSET/index.php/Home/User/Regist'>注册</a> ";
+		}
+		else{
+			if($signid==1)
+				echo "已签到";
+			else
+				echo " <a href='http://$URLSET/index.php/Home/User/Signin'>签到</a> ";
+			echo " <a href='http://$URLSET/index.php/Home/User/PassW'>修改密码</a> ";
+			echo " <a href='http://$URLSET/index.php/Home/User/Exitlogin'>退出登录</a>";
+		}
+		</php>
+	</p>
+	<hr />
+		
+	<iframe src={$url1} width="100%" height="468" frameborder="no" border="0" marginwidth="0" marginheight="0"scrolling="yes" allowtransparency="yes">
+	</iframe>
+  	
+
+</body>
+</html> 

@@ -1,0 +1,3122 @@
+[ 2015-12-24T18:56:00+08:00 ] ::1 /project2.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037443s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.3573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0631s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0321s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.298015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008501s ]
+
+[ 2015-12-24T18:56:01+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0635s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0101s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-12-24T18:56:04+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: 1146:Table 'phpproject1.p_questionnaire1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_questionnaire1`
+ERR: 1146:Table 'phpproject1.p_questionnaire1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_questionnaire1`
+
+[ 2015-12-24T19:00:43+08:00 ] ::1 /project2.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0085s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-12-24T19:00:43+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-12-24T19:00:46+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-12-24T19:00:51+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-12-24T19:00:58+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 37  [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 37  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 19 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-12-24T19:02:49+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2015-12-24T19:02:51+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2015-12-24T19:02:55+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-12-24T19:03:42+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 35  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 35  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 19 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-12-24T19:03:53+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-12-24T19:04:11+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-12-24T19:09:37+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2015-12-24T19:09:50+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2015-12-24T19:10:16+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: username F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0079s ]
+ERR: 1048:Column 'USERNAME' cannot be null
+ [ SQL语句 ] : INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷1',NULL)
+ERR: 1048:Column 'USERNAME' cannot be null
+ [ SQL语句 ] : INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷1',NULL)
+
+[ 2015-12-24T19:14:01+08:00 ] ::1 /project2.1/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-12-24T19:14:39+08:00 ] ::1 /project2.1/index.php/Home/User/Logins?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = 'e10adc3949ba59abbe56e057f20f883e'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0030s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-12-24T19:14:40+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-12-24T19:14:42+08:00 ] ::1 /project2.1/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-12-24T19:14:51+08:00 ] ::1 /project2.1/index.php/Home/User/Logins?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = '46f94c8de14fb36680850768ff1b7f2a'  [ RunTime:0.0003s ]
+SQL: SELECT `ID` FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = '46f94c8de14fb36680850768ff1b7f2a' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_signin` WHERE `TIME` = '2015-12-24' AND `USERID` = '1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0033s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-12-24T19:14:52+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-12-24T19:21:00+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-12-24T19:21:05+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2015-12-24T19:21:14+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷1'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-12-24T19:21:19+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-12-24T19:21:24+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷1'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2015-12-24T19:21:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0035s ]
+SQL: INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷1','wangxg') [ RunTime:0.0519s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷1' AND `USERNAME` = 'wangxg'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 5 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0320s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('43','radio','1','11','12',NULL,NULL) [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2015-12-24T19:21:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-12-24T19:21:37+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-12-24T19:21:47+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-12-24T19:24:58+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-12-24T19:26:52+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-12-24T19:27:48+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-12-24T19:35:31+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-12-24T19:35:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Undefined index: value F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2015-12-24T19:36:23+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-12-24T19:36:29+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '文娟2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-12-24T19:36:44+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('文娟2','wangxg') [ RunTime:0.0717s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '文娟2' AND `USERNAME` = 'wangxg'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 5 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0033s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('44','radio','12','12','1',NULL,NULL) [ RunTime:0.0299s ]
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 76 行.
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('44','checkbox','213','123','222','333','444') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-12-24T19:36:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-12-24T19:36:46+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 44  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 44  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 19 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 20 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-12-24T19:37:05+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined index: value F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2015-12-24T19:38:33+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 44  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 19 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 20 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-12-24T19:38:37+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Undefined index: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2015-12-24T19:39:31+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2015-12-24T19:39:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-12-24T19:39:40+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 44  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 17 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 18 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 19 行.
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 20 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-12-24T19:39:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-12-24T19:40:06+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Undefined index: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-12-24T19:41:03+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Undefined index: data F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-12-24T19:41:57+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined index: 1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-12-24T19:47:28+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2015-12-24T19:47:33+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷3'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-12-24T19:48:01+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷3','wangxg') [ RunTime:0.0181s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷3' AND `USERNAME` = 'wangxg'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 5 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0045s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('45','radio','11','111','112',NULL,NULL) [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 5 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 77 行.
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('45','radio','111','1111','1112',NULL,NULL) [ RunTime:0.0103s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('45','checkbox','321','321','32112','2','23') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-12-24T19:48:01+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2015-12-24T19:48:02+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-12-24T19:49:14+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-12-24T19:49:56+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] Undefined index: 3 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2015-12-24T19:50:17+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Undefined index: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2015-12-24T19:50:32+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-12-24T19:50:57+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2015-12-24T20:03:30+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-12-24T20:03:35+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-12-24T20:03:46+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-12-24T20:03:56+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-12-24T20:04:03+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷4'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-12-24T20:04:08+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷4','wangxg') [ RunTime:0.0483s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷4' AND `USERNAME` = 'wangxg'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 78 行.
+NOTIC: [8] Undefined offset: 3 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 79 行.
+NOTIC: [8] Undefined offset: 4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 80 行.
+NOTIC: [8] Undefined offset: 5 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0073s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('46','textfield','去的',NULL,NULL,NULL,NULL) [ RunTime:0.0254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2015-12-24T20:04:08+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-12-24T20:04:09+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: sequence F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-12-24T20:04:11+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined offset: 1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2015-12-24T20:05:02+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined offset: 1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-12-24T20:06:09+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Undefined offset: 1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2015-12-24T20:06:11+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined offset: 1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-12-24T20:06:16+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-12-24T20:06:18+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2015-12-24T20:06:22+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-12-24T20:06:26+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-12-24T20:06:32+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-12-24T20:06:44+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-12-24T20:06:46+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined offset: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-12-24T20:09:32+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/Changename
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷5'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-12-24T20:09:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: INSERT INTO `p_questionnaire1` (`NAME`,`USERNAME`) VALUES ('问卷5','wangxg') [ RunTime:0.0517s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `NAME` = '问卷5' AND `USERNAME` = 'wangxg'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 6 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0034s ]
+SQL: INSERT INTO `p_questionnaire2` (`FID`,`TYPE`,`VALUE1`,`VALUE2`,`VALUE3`,`VALUE4`,`VALUE5`) VALUES ('47','checkbox','11','111','112','113','114') [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2015-12-24T20:09:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-12-24T20:09:46+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-12-24T20:09:51+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-12-24T20:12:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Undefined index: 2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-12-24T20:18:36+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: cnt F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 10 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined variable: cnt F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2015-12-24T20:18:39+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-12-24T20:18:59+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-12-24T20:19:55+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2015-12-24T20:20:06+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-12-24T20:20:56+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2015-12-24T20:21:12+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2015-12-24T20:21:31+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-12-24T20:21:50+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-12-24T20:23:36+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-12-24T20:24:23+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-12-24T20:24:35+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2015-12-24T22:02:02+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2015-12-24T22:02:18+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-12-24T22:02:39+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0838s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-12-24T22:02:43+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-12-24T22:02:50+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-12-24T22:03:19+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-12-24T22:03:21+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-12-24T22:11:29+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-12-24T22:11:31+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-12-24T22:12:29+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-12-24T22:12:32+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-12-24T22:12:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: aa1[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-12-24T22:13:09+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-12-24T22:13:11+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2015-12-24T22:13:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2015-12-24T22:13:36+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-12-24T22:14:09+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-12-24T22:14:11+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2015-12-24T22:14:52+08:00 ] ::1 /project2.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0887s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0253s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2015-12-24T22:14:53+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.1026s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0984s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-12-24T22:14:54+08:00 ] ::1 /project2.1/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2015-12-24T22:15:09+08:00 ] ::1 /project2.1/index.php/Home/User/Logins?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = 'dc647eb65e6711e155375218212b3964'  [ RunTime:0.0523s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0030s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-12-24T22:15:10+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-12-24T22:15:12+08:00 ] ::1 /project2.1/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-12-24T22:15:22+08:00 ] ::1 /project2.1/index.php/Home/User/Logins?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_user` WHERE `USERNAME` = 'wangxg1' AND `PASSWORD` = '46f94c8de14fb36680850768ff1b7f2a'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0035s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-12-24T22:15:23+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2015-12-24T22:15:25+08:00 ] ::1 /project2.1/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Home\Controller\UserController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-12-24T22:15:35+08:00 ] ::1 /project2.1/index.php/Home/User/Logins?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = '46f94c8de14fb36680850768ff1b7f2a'  [ RunTime:0.0004s ]
+SQL: SELECT `ID` FROM `p_user` WHERE `USERNAME` = 'wangxg' AND `PASSWORD` = '46f94c8de14fb36680850768ff1b7f2a' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2015-12-24' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0471s ]
+SQL: SELECT * FROM `p_signin` WHERE `TIME` = '2015-12-24' AND `USERID` = '1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0059s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2015-12-24T22:15:37+08:00 ] ::1 /project2.1/index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = '1'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-12-24T22:15:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-12-24T22:15:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/View
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-12-24T22:15:48+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008838s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-12-24T22:15:50+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+NOTIC: [8] Undefined index: aa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-12-24T22:16:53+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-12-24T22:16:55+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2015-12-24T22:16:56+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-12-24T22:17:17+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-12-24T22:17:57+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-12-24T22:17:59+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2015-12-24T22:18:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-12-24T22:18:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined index: aaa[] F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-12-24T22:18:54+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-12-24T22:21:08+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-12-24T22:21:26+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-12-24T22:22:10+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 47  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 47  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-12-24T22:22:13+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: aa2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-12-24T22:22:26+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-12-24T22:22:31+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-12-24T22:22:47+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2015-12-24T22:22:49+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-12-24T22:22:52+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-12-24T22:23:51+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2015-12-24T22:23:54+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-12-24T22:23:56+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: aa2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-12-24T22:30:25+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-12-24T22:30:28+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [8] Undefined index: aa2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2015-12-24T22:30:32+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 45  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 45  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-12-24T22:30:37+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2015-12-24T22:43:34+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2015-12-24T22:47:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2015-12-24T22:48:38+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-12-24T22:54:26+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-12-24T22:56:44+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire3` [ RunTime:0.0038s ]
+SQL: INSERT INTO `p_questionnaire3` () VALUES () [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: data F:\Demo\project2.1\App\Runtime\Cache\Home\caad95bff96f16abf0a3c9b0e54cd60d.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-12-24T22:57:49+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: aa4 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire3` [ RunTime:0.0240s ]
+SQL: INSERT INTO `p_questionnaire3` (`FID`,`PROB1`,`PROB2`,`PROB3`) VALUES ('45','a:1:{i:0;s:1:\"A\";}','a:1:{i:0;s:1:\"B\";}','a:2:{i:0;s:1:\"B\";i:1;s:1:\"C\";}') [ RunTime:0.0217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2015-12-24T23:00:35+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 46  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-12-24T23:00:37+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8] Undefined index: aa2 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire3` [ RunTime:0.0040s ]
+SQL: INSERT INTO `p_questionnaire3` (`FID`,`PROB1`) VALUES ('46','a:1:{i:0;s:8:\"asdasdas\";}') [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-12-24T23:01:39+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/SaveR?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Undefined index: aa1 F:\Demo\project2.1\App\Home\Controller\QuestionnaireController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_questionnaire3` [ RunTime:0.0037s ]
+SQL: INSERT INTO `p_questionnaire3` (`FID`) VALUES ('46') [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `p_questionnaire1`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-12-24T23:01:45+08:00 ] ::1 /project2.1/index.php/Home/Questionnaire/ViewQ?id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire2` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p_questionnaire2` WHERE `FID` = 43  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_questionnaire1` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_questionnaire1` WHERE `ID` = 43  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: value6 F:\Demo\project2.1\App\Runtime\Cache\Home\525e947c82df291ba6202a467c6347e7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+

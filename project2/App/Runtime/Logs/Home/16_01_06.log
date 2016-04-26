@@ -1,0 +1,56 @@
+[ 2016-01-06T01:03:34+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008734s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2016-01-06' LIMIT 1   [ RunTime:0.0221s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0387s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035019s ]
+
+[ 2016-01-06T13:56:53+08:00 ] 123.151.42.61 http://www.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+NOTIC: [8] Undefined index: id F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0659s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2016-01-06' LIMIT 1   [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: signid F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root F:\Demo\project2.1\App\Home\Controller\MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\Demo\project2.1\App\Runtime\Cache\Home\ea340386924792ccc65576071a30eec1.php 第 6 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0047s ]
+SQL: SELECT `counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020871s ]
+

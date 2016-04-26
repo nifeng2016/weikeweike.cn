@@ -1,0 +1,163 @@
+/*
+HTML 5 Name: MSTC_CQU
+Author: OS Templates, Meng G
+*/
+
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+@import url(slider.css);
+@import url(homepage.css);
+@import url(gallery.css);
+@import url(portfolio.css);
+@import url(post.css);
+@import url(about.css);
+
+html{overflow-y:scroll;}
+
+body{margin:0; padding:0; font-size:13px; font-family: "微软雅黑" , sans-serif, "Times New Roman", Times, serif; color:#000000; background-color:#FFFFFF;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+/*IE*/
+* {border: 0;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section{display:block; margin:0; padding:0;}
+
+section#slider{
+box-shadow: -0.3rem 0.6rem 3rem #959595;
+}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'?'; font-size:26px;}
+q:after{content:'?'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+div.wrapper a{color:#6FBBF1;}
+
+.row1{/*margin-bottom: -2px;padding-bottom: -2px;*/ background-color:#6FBBF1; height:5.43em ; display:inline;}   /*70.7px*/	/*5.4em*/
+/*#navimg{position: absolute;}*/
+
+.row2, .row2 a{}
+.row3, .row3 a{}
+.row4, .row4 a{}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer, #copyright{display:block; width:960px; margin:0 auto;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; text-transform:uppercase; font-weight:normal; line-height:normal;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'?'; font-size:26px;}
+blockquote:after, q:after{content:'?'; font-size:26px; line-height:0;}
+
+.one_quarter, .two_quarter, .three_quarter{display:block; float:left; margin:0 0 0 20px;}
+.one_quarter{width:300px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+
+.one_third, .two_third{display:block; float:left; margin:0 0 0 40px;}
+.one_third{width:240px; overflow:hidden;}
+.one_third img{height: 200;}
+#one_third_last{width:400px;}
+.two_third{width:630px;}
+
+.first, .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, .one_third:first-child, .two_third:first-child{margin-left:0;}
+.four_quarter, .three_third{width:100%; float:none; margin-left:0; clear:both;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:10px 0 0 0;}
+
+#header hgroup{float:left; position:absolute; }
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:10px 0 10px 0; line-height:1.6em; border-bottom:0 solid #E2E2E2;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px;}
+#container section{display:block; width:100%; margin:45px 0 60px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Content-----*/
+
+#container #content{float:left; width:630px; margin-bottom:0;}
+
+/* ------Comments-----*/
+
+#comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
+#comments li.comment_odd, #comments li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#3879D9; background-color:#F7F7F7;}
+#comments li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#3879D9; background-color:#E8E8E8;}
+#comments article, #comments header{display:block; width:100%;}
+#comments figure{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid #DEDACB; text-align:center;}
+#comments figure img{float:inherit;}
+#comments header address{font-weight:bold;}
+#comments header time{font-size:smaller;}
+#comments article section{margin:0; padding:0;}
+#comments article section p{margin:10px 5px 10px 0; padding:0;}
+
+/* ------Right Column-----*/
+
+#container #right_column{float:right; width:300px;}
+
+aside h2{padding-bottom:8px; font-size:16px; text-transform:uppercase; border-bottom:5px solid #CCCCCC; text-align:right;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+.wrapper.row3{
+ 	background-image:-webkit-linear-gradient(to top, #8f8d8d, #7D7D7D, #7D7D7D, #767676, #676767, #676767, #4B4C49);
+	background-image:linear-gradient(to top,#8f8d8d, #7D7D7D, #7D7D7D, #767676, #676767, #676767, #4B4C49);
+	} 
+
+a #quick_links:link {color:white;}		/* 未被访问的链接 */
+a #quick_links:visited {color:white;}	/* 已被访问的链接 */
+a #quick_links:hover {color:white;}		/* 鼠标指针移动到链接上 */
+a #quick_links:active {color:white;}
+
+#footer{padding:40px 0; font-size:12px; line-height:1.6em; border-bottom:0px solid #E2E2E2; color: white; }
+
+#footer section h2.title{margin-bottom:30px; text-transform:none;}
+
+
+/* ------Quick Links-----*/
+
+
+#footer section img{margin: 0 2em 0 0;}
+#msra {color: white; position: absolute; padding: 2em 0em 2em 0em; font-size: 20px; font-family: serif;letter-spacing:0.1em;}
+/* ------Posts-----*/
+
+#footer section article header, #footer section article address, #footer section article time, #footer section article p{margin:0; padding:0;}
+#footer section article p{margin-top:10px; font-size: 19px; line-height:2em; font-family: sans-serif;}
+#footer section article header h2{font-size:14px; font-weight:bold; text-transform:none;}
+#footer section article address, #footer section article time{font-size:10px; font-style:normal;}
+
+/* ------Provision-----*/
+
+#footer section figure.imgholder{border-color:#555555;}
+#footer section p{font-size: 15px; line-height: 2em;}
+#footer section a{color:white;}

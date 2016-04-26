@@ -1,0 +1,168 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="http://localhost/eclipse/project2//public/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost/eclipse/project2//public/jquery/jquery-2.2.0.js"></script>
+    <script src="http://localhost/eclipse/project2//public/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        function validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                if (value==null||value=="")
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+
+        function validate_form(thisform)
+        {
+            with (thisform)
+            {
+                if (validate_required(Pos,"招聘职位未填写")==false)
+                {
+                    Pos.focus();
+                    return false
+                } else if (validate_required(Salary,"待遇未填写")==false)
+                {
+                    Salary.focus();
+                    return false
+                } else if (validate_required(Place,"工作地点未填写")==false)
+                {
+                    Place.focus();
+                    return false
+                } else if (validate_required(Contact,"联系人未填写")==false)
+                {
+                    Contact.focus();
+                    return false
+                } else if (validate_required(ConnWay,"联系方式未填写")==false)
+                {
+                    ConnWay.focus();
+                    return false
+                } else if (validate_required(Title,"标题未填写")==false)
+                {
+                    Title.focus();
+                    return false
+                }
+
+            }
+        }
+    </script>
+    <?php $upload="http://".C('URLSET')."/index.php/Home/HR/upload"; ?>
+</head>
+<body style="background-color: #F1F9EE">
+<div class="container" style="background-color: #F1F9EE">
+    <h2 align="center" style="font-weight: 100">
+        发布招聘
+    </h2>
+
+    <br>
+    <br>
+
+    <br>
+    <div class="row " style="height: 800px; background-color: chartreuse">
+        <div class="col-sm-2" style="height: 800px; background-color: #FBF4F4"></div>
+        <div class="col-sm-8" style="height: 800px; background-color: #FBF4F4">
+            <p align="right">(带<span style="color: red;">*</span>的为必填)</p>
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <form class="form-horizontal" action=<?php echo ($upload); ?> method="post">
+
+				<div class="form-group">
+                    <label for="inputTitle" class="col-sm-3 control-label"><p align="right">标题: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputTitle" name="Title" placeholder="Title">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+				
+                <div class="form-group">
+                    <label for="inputpos" class="col-sm-3 control-label"><p align="right">招聘职位: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputpos" name="Pos" placeholder="Job Name">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputSal" class="col-sm-3 control-label"><p align="right">待遇: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputSal" name="Salary" placeholder="Salary">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputPlace" class="col-sm-3 control-label"><p align="right">工作地点: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputPlace" name="Place" placeholder="Work Place">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputdes" class="col-sm-3 control-label"><p align="right">职位简介: </p></label>
+                    <div class="col-sm-8">
+                        <textarea rows="3" type="text" class="form-control" id="inputdes" name="Des" placeholder="Job Description"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputCommand" class="col-sm-3 control-label"><p align="right">工作要求: </p></label>
+                    <div class="col-sm-8">
+                        <textarea rows="3" type="text" class="form-control" id="inputCommand" name="Comm" placeholder="Command"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputOffice" class="col-sm-3 control-label"><p align="right">工作单位简介: </p></label>
+                    <div class="col-sm-8">
+                        <textarea rows="3" type="text" class="form-control" id="inputOffice" name="Offi" placeholder="Work Unit Description"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputContact" class="col-sm-3 control-label"><p align="right">联系人: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputContact" name="Contact" placeholder="Contact Person">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputConnWay" class="col-sm-3 control-label"><p align="right">联系方式: </p></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputConnWay" name="ConnWay" placeholder="Contact information">
+                    </div>
+                    <span style="color: red;"><h4>*</h4></span>
+                </div>
+
+                <div class="form-group">
+                    <br>
+                    <br>
+                    <div class="col-sm-offset-6 col-sm-3">
+                        <button type="submit" class="btn btn-default">提交</button>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <?php $back="http://".C('URLSET')."/index.php/Home/AboutUs/index"; ?>
+            <h4 align="center" style="font-weight: 100">
+                <a href=<?php echo ($back); ?>>返回</a>
+            </h4>
+        </div>
+        <div class="col-sm-2" style="height: 800px; background-color: #FBF4F4"></div>
+    </div>
+
+</div>
+</body>
+</html>

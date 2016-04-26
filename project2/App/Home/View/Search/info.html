@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+    <link href="http://localhost/eclipse/project2/public/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost/eclipse/project2/public/jquery/jquery-2.2.0.js"></script>
+    <script src="http://localhost/eclipse/project2/public/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #F1F9EE; height:1000px">
+    <br>
+    <div class="container">
+        <h3 style="font-weight: 100">课程:</h3>
+        <br>
+        <table class="table">
+            <thead>
+                <th class="col-sm-4">课程名称</th>
+                <th class="col-sm-8">课程描述</th>
+            </thead>
+            <tbody>
+                <volist name='datavideos' id='vo'>
+                    <php>
+                        $href="http://".C('URLSET')."/index.php/Home/Video/ShowVideo?id=".$vo['id']
+                    </php>
+                    <tr>
+                        <td>
+                            <a href={$href}>{$vo['name']}</a>
+                        </td>
+                        <td>
+                            {$vo['descpt']}
+                        </td>
+                    </tr>
+                </volist>
+            </tbody>
+        </table>
+
+        <br>
+        <h3 style="font-weight: 100">人才招聘:</h3>
+        <br>
+        <table class="table">
+            <thead>
+                <th class="col-sm-6">标题</th>
+                <th class="col-sm-3">发布时期</th>
+                <th class="col-sm-3">发布者</th>
+            </thead>
+            <tbody>
+                <volist name="datahr" id="vo">
+                    <php>$href="http://".C('URLSET')."/index.php/Home/HR/detail?id=".$vo['id']</php>
+                    <tr>
+                        <td><a href={$href}>{$vo['title']}</a></td>
+                        <td>{$vo['date']}</td>
+                        <td>{$vo['publisher']}</td>
+                    </tr>
+                </volist>
+            </tbody>
+        </table>
+
+        <h3 style="font-weight: 100">最新动态:</h3>
+        <br>
+        <table class="table">
+            <thead>
+            <th class="col-sm-4">标题</th>
+            <th class="col-sm-8">发布时间</th>
+            </thead>
+            <tbody>
+                <php>if($datadt1){</php>
+                <volist name="datadt1" id="vo">
+                    <php>$href="http://".C('URLSET')."/index.php/Home/DongTai/detail?id=".$vo['id']</php>
+                    <tr>
+                        <td><a href={$href}>{$vo['title']}</a></td>
+                        <td>{$vo['time']}</td>
+
+                    </tr>
+                </volist><php>}if($dt1add){</php>
+                <volist name="dt1add" id="vo1">
+                    <php>$href="http://".C('URLSET')."/index.php/Home/DongTai/detail?id=".$vo1['id']</php>
+                    <tr>
+                        <td><a href={$href}>{$vo1['title']}</a></td>
+                        <td>{$vo1['time']}</td>
+                    </tr>
+                </volist><php>}</php>
+            </tbody>
+        </table>
+
+        <br>
+
+        <h3 style="font-weight: 100">行业资讯:</h3>
+        <br>
+        <table class="table">
+            <thead>
+            <th class="col-sm-4">标题</th>
+            <th class="col-sm-8">发布时间</th>
+            </thead>
+            <tbody>
+            <php>if($datahy1){</php>
+            <volist name="datahy1" id="vo">
+                <php>$href="http://".C('URLSET')."/index.php/Home/HangYe/detail?id=".$vo['id']</php>
+                <tr>
+                    <td><a href={$href}>{$vo['title']}</a></td>
+                    <td>{$vo['time']}</td>
+                </tr>
+            </volist><php>}if($hy1add){</php>
+            <volist name="hy1add" id="vo1">
+                <php>$href="http://".C('URLSET')."/index.php/Home/HangYe/detail?id=".$vo1['id']</php>
+                <tr>
+                    <td><a href={$href}>{$vo1['title']}</a></td>
+                    <td>{$vo1['time']}</td>
+                </tr>
+            </volist><php>}</php>
+            </tbody>
+        </table>
+
+        <br>
+    </div>
+</body>
+</html>

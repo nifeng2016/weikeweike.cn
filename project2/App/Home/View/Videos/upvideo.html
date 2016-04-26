@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+    <link href="http://localhost/eclipse/project2/public/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost/eclipse/project2/public/jquery/jquery-2.2.0.js"></script>
+    <script src="http://localhost/eclipse/project2/public/js/bootstrap.min.js"></script>
+    <php>
+        $url2 = "http://".C('URLSET')."/index.php/Home/Video/uploadcls?name=".$name; 
+    </php>
+</head>
+<body style="background-color: #F1F9EE">
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <h4>上传视频</h4>
+            <br>
+            <form action={$url2} method="post" enctype="multipart/form-data" class="form">
+                <div class="form-group">
+                    <label for="className" class="control-label"><h4 style="font-weight: 100">课程名称:</h4></label>
+                    <input type="text" class="form-control" name="vname" id="className" />
+                    <br>
+                    <input type="file"  name="appends" />
+                    <br>
+                    <input type="submit" class="btn" value="提交" >
+                </div>
+            </form>
+        </div>
+        <div class="col-md-7"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.main{
+/*
+background-color:#00FF99;
+*/
+width:1000px;
+height:800px;
+margin:0 auto;
+}
+body {
+	margin:0;padding:0;
+	font-family:verdana;
+    color:#0066CC;
+	background-image: url("http://localhost/eclipse/project2//public/images/bg.gif");
+}
+</style>
+</head>
+<body>
+<div align="center" class="main">
+<h1 align="center" style="font-weight:100">{$title[0]['name']}</h1>
+<h2 align="center" style="font-weight:100"> Publisher: {$title[0]['username']}</h2>
+<hr style="height:1px;border:none;border-top:1px solid #999999;" />
+	<php>
+		
+	    $cnt = 1;
+		$url1="http://".C('URLSET')."/index.php/Home/Questionnaire/SaveR?id=".$id;
+		$flag = "aa".$cnt."[]";
+	</php>
+
+<form method="post" action={$url1}>
+	<ol>
+		<volist name="data" id="vo1">
+		<li>
+				<h3 align="center" style="font-weight:100">标题： {$vo1['value1']}</h3>
+				<php>if($vo1['type']=="radio" || $vo1['type']=="checkbox"){</php>
+					<input type={$vo1['type']} value="A" name={$flag} />{$vo1['value2']}
+					<input type={$vo1['type']} value="B" name={$flag} />{$vo1['value3']}
+					<php>if($vo1['value4']){</php><input type={$vo1['type']} value="C" name={$flag} />{$vo1['value4']}<php>}</php>
+					<php>if($vo1['value5']){</php><input type={$vo1['type']} value="D" name={$flag} />{$vo1['value5']}<php>}</php>
+					<php>if($vo1['value6']){</php><input type={$vo1['type']} value="E" name={$flag} />{$vo1['value6']}<php>}</php>
+				<php>}else if($vo1['type']=="textfield"){</php>
+					<input type={$vo1['type']} name={$flag} value=""/>
+				<php>}else if($vo1['type']=="imgradio"){</php>
+					<input type='radio' value="A" name={$flag} /><img width='100px' height='100px' src='{$vo1['value2']}'/>
+					<input type='radio' value="B" name={$flag} /><img width='100px' height='100px' src='{$vo1['value3']}'/>
+					<php>if($vo1['value4']){</php><input type='radio' value="C" name={$flag} /><img width='100px' height='100px' src='{$vo1['value4']}'/><php>}</php>
+					<php>if($vo1['value5']){</php><input type='radio' value="D" name={$flag} /><img width='100px' height='100px' src='{$vo1['value5']}'/><php>}</php>
+					<php>if($vo1['value6']){</php><input type='radio' value="E" name={$flag} /><img width='100px' height='100px' src='{$vo1['value6']}'/><php>}</php>
+					<php>}else if($vo1['type']=="imgcheckbox"){</php>
+					<input type='checkbox' value="A" name={$flag} /><img width='100px' height='100px' src='{$vo1['value2']}'/>
+					<input type='checkbox' value="B" name={$flag} /><img width='100px' height='100px' src='{$vo1['value3']}'/>
+					<php>if($vo1['value4']){</php><input type='checkbox' value="C" name={$flag} /><img width='100px' height='100px' src='{$vo1['value4']}'/><php>}</php>
+					<php>if($vo1['value5']){</php><input type='checkbox' value="D" name={$flag} /><img width='100px' height='100px' src='{$vo1['value5']}'/><php>}</php>
+					<php>if($vo1['value6']){</php><input type='checkbox' value="E" name={$flag} /><img width='100px' height='100px' src='{$vo1['value6']}'/><php>}</php>
+					<php>}$cnt++;
+					   $flag = "aa".$cnt."[]";
+					   
+					   </php>
+				</php>
+		</li>
+		</volist> 
+	</ol>
+	<input type=hidden name="ct" value={$cnt} />
+	<input type="submit" value="提交">
+</form>
+
+</div>
+	
+</body>
+</html>

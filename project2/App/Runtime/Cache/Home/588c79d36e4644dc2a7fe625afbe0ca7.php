@@ -1,0 +1,29 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="http://localhost/eclipse/project2//public/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost/eclipse/project2//public/jquery/jquery-2.2.0.js"></script>
+    <script src="http://localhost/eclipse/project2//public/js/bootstrap.min.js"></script>
+
+</head>
+<body style="height:1000px;background-color:#EDF2F1">
+<div class="container">
+    <h2 align="center" style="font-weight:100"><?php echo ($tid); ?></h2>
+    <br>
+    <br>
+
+    <div class = "row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <hr style="height:1px;border:none;border-top:1px solid #BDB76B;" />
+            <br>
+            <?php echo ($content['content']); ?>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+font-family:verdana;
+ color:#0066CC;
+ cursor:default;
+ font-weight:100;
+}
+.left{
+   width:10%; margin-left: auto; margin-right: auto;
+   height:460px;
+   float:left;
+   
+}
+.mid{
+   position:relative;width:80%; margin-left: auto; margin-right: auto;
+   float:left;
+}
+.right{
+   position:relative;width:10%; margin-left: auto; margin-right: auto;float:right;
+   height:460px;
+
+}
+.main{
+
+width:1000px;
+height:600px;
+margin: 0 auto;
+}
+</style>
+<php>
+//$idx; 
+//$select;
+//$count; 
+//$url_video;
+//$url1 = $select[$idx]['url'];
+//$name1 = $select[$idx]['name'];
+
+$url2 = "http://".C('URLSET')."/index.php/Home/Video/UpVideo?idx=".$idx."&lname=".$lname;
+$url3 = "http://".C('URLSET')."/index.php/Home/Video/DownVideo?idx=".$idx."&lname=".$lname;
+$url4 = "http://".C('URLSET')."/index.php/Home/Video/ShowVideo?id=".$_SESSION['LID'];
+</php>
+</head>
+<body>
+<h2 align = "center">{$lname}</h2>
+<div class="main">
+<p align = "right"><a href= {$url4}>返回课程主页</a></p>
+
+ <div class="left">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <p align = "center" >  
+ <a href={$url2}><img src="http://localhost/eclipse/project2//public/images/1.png"width="100px" height="100px"><br>上一节</a>
+ </p>
+ </div>
+
+
+ <div class= "mid">
+	<video width="100%" height="460" controls="controls">
+		<source src={$url_video} type="video/mp4">
+	</video>
+ </div>
+
+ <div class="right">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br> 
+ <br>
+ <p align = "center">
+ <a href={$url3}><img src="http://localhost/eclipse/project2//public/images/10.png"width="100px" height="100px"><br>下一节</a>
+ </p>
+ </div>
+</div>
+</body>
+</html>

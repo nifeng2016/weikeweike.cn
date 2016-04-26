@@ -1,0 +1,19 @@
+Bug 
+1.传课程不能传+号
+2.上传结束需要重新点一下
+ToDoList
+用户信息修改页面：
+   美化button，select
+BBS发表话题页面：
+  美化button
+BBS具体话题的分页
+
+所有表格尽量找一个css
+
+classdetail页面的button的优化
+
+showVideo界面
+	上一节，下一节箭头图标，找文超PS
+
+添加新课程
+URLSET

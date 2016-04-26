@@ -1,0 +1,44 @@
+/*
+HTML 5 Name: MSTC_CQU
+Author: Meng G
+*/
+
+#container #homepage #slider{}
+
+#container #homepage #slider{height:450px; position:relative; }
+#container #homepage #slider dl.slidedeck{display:block; position:absolute; width:100%; height:100%; margin:0; padding:0; border:0px;}
+#container #homepage #slider dl.slidedeck > dd{position:absolute; height:450px; margin:0; padding:0; overflow:hidden;border:0;}
+#container #homepage #slider dl.slidedeck > dt{opacity:0.3; position:absolute; height:40px; margin:0; padding:0; line-height:38px;
+ letter-spacing: 0.1em; font-size:13px; font-weight:bold; font-family:"微软雅黑"，sans-serif; text-transform:uppercase; color:#000000; background-color:#000000; 
+ cursor:pointer; overflow:hidden; /*border-top:2px solid #000000;*/ /* Needs top-border as the JavaScript rotates the element */
+/*IE rotate*/
+transform: rotate(270deg);
+transform-origin: 20px 0;
+}
+
+#container #homepage #slider img{left:-42px; position:relative; border:0px;}
+#container #homepage #slider dt{opacity:0;  border:0px;}
+
+/* Spines */
+/*活跃状态*/
+#container #homepage #slider dl.slidedeck dt.spine:hover{color:#000000; background-color:#E1CC76;opacity:0;  border:0px;} 
+#container #homepage #slider dl.slidedeck dt.spine.active, #container #homepage #slider dl.slidedeck dt.spine.active:hover{
+color:#000000; background-color:#000000; cursor:default; opacity:0;  border:0px;
+/*IE rotate*/
+transform: rotate(270deg);
+transform-origin: 20px 0;
+}
+/*下方数字*/
+#container #homepage #slider dl.slidedeck dt.spine .index{
+	margin-bottom:2px; font-size:24px; font-weight:normal; font-family:"微软雅黑",sans-serif,serif; color:#F8F9F3; opacity:1;
+	transform: rotate(90deg);
+	transform-origin: 20px 0;
+}
+#container #homepage #slider dl.slidedeck dt.spine.active .index{margin-bottom:0;  border:0px;}
+#container #homepage #slider dl.slidedeck dt.spine:hover .index, #container #homepage #slider dl.slidedeck dt.spine.active .index{color:#F8F9F3; opacity:0;  border:0px;}
+
+/* The SlideDeck "active corner". */
+
+#container #homepage #slider dl.slidedeck .activeCorner{}
+#container #homepage #slider dl.slidedeck .active{}
+

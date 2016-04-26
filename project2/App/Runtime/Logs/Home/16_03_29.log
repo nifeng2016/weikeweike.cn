@@ -1,0 +1,10 @@
+[ 2016-03-29T16:06:24+08:00 ] ::1 /eclipse/project2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003405s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004444s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+

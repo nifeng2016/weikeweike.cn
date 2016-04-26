@@ -1,0 +1,72 @@
+[ 2016-03-30T16:36:15+08:00 ] ::1 /eclipse/project2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000354s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004332s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2016-03-30T16:49:44+08:00 ] ::1 /eclipse/project2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003358s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004322s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `p_signin` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_signin` WHERE `TIME` = '2016-03-30' LIMIT 1   [ RunTime:0.0159s ]
+NOTIC: [8] Undefined variable: signid /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: root /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002292s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Runtime/Cache/Home/ea340386924792ccc65576071a30eec1.php 第 8 行.
+SQL: SHOW COLUMNS FROM `p_mycounter` [ RunTime:0.0132s ]
+SQL: SELECT `Counter` FROM `p_mycounter` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0034s ]
+SQL: UPDATE `p_mycounter` SET `Counter`='1099' WHERE `id` = 1 [ RunTime:0.0097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-03-30T16:49:44+08:00 ] ::1 /eclipse/project2//index.php/Home/Main/Maindown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `p_user` WHERE `ID` = null  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Home/Controller/MainController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `p_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_info`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_text` [ RunTime:0.0031s ]
+SQL: SELECT `TEXT` FROM `p_text` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Runtime/Cache/Home/7c5c5a6da657e6bb9236c3f9016c9960.php 第 116 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Runtime/Cache/Home/7c5c5a6da657e6bb9236c3f9016c9960.php 第 116 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Runtime/Cache/Home/7c5c5a6da657e6bb9236c3f9016c9960.php 第 116 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /Applications/XAMPP/xamppfiles/htdocs/eclipse/project2/App/Runtime/Cache/Home/7c5c5a6da657e6bb9236c3f9016c9960.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+

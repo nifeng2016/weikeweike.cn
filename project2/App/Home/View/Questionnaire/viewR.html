@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	margin:0;padding:0;
+	font-family:verdana;
+    color:#0066CC;
+	background-image: url("http://localhost/eclipse/project2//public/images/bg.gif");
+}
+.main{
+/*
+background-color:#CCFF00;
+*/
+width:1000px;
+height:2000px;
+margin:0 auto;
+}
+</style>
+</head>
+<php>
+		$url1="http://".C('URLSET')."/index.php/Home/Questionnaire/View";
+	</php>
+<body>
+<div align="center" class="main">
+<h1 align="center" style="font-weight:100">{$title[0]['name']}</h1>
+<h1 align="center" style="font-weight:100">问卷结果</h1>
+<hr style="height:1px;border:none;border-top:1px solid #999999;" />
+<ol>
+		<volist name="data" id="vo1">
+		<li>
+				<h2 style="font-weight:100">标题: {$vo1['value1']}</h2>
+				<php>if($vo1['type']=="radio" || $vo1['type']=="checkbox"){</php>
+					&nbsp;&nbsp选项：  A.&nbsp;&nbsp;{$vo1['value2']}&nbsp;&nbsp;&nbsp;&nbsp;
+					B.&nbsp;&nbsp;{$vo1['value3']}&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value4']){</php>C.&nbsp;&nbsp;{$vo1['value4']}&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<php>if($vo1['value5']){</php>D.&nbsp;&nbsp;{$vo1['value5']}&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<php>if($vo1['value6']){</php>E.&nbsp;&nbsp;{$vo1['value6']}&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<br/><br/>
+					<p align="left">
+					&nbsp;&nbsp结果： A.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][1]!=null) echo($count[$vo1['sequence']][1]);
+					else echo "0";</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					B.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][2]!=null) echo($count[$vo1['sequence']][2]);
+					else echo "0";</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value4']){</php>C.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][3]!=null) echo($count[$vo1['sequence']][3]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value5']){</php>D.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][4]!=null) echo($count[$vo1['sequence']][4]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value6']){</php>E.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][5]!=null) echo($count[$vo1['sequence']][5]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				<php>}else if($vo1['type']=="textfield"){ $count1=$count[$vo1['sequence']];
+						
+						
+				</php>
+						<table>
+							<volist name="count1" id='c1'>
+							<tr>
+								<td>答案： </td>
+								<td>{$c1}</td>
+							</tr>
+							</volist>
+						</table>
+					<php>}else if($vo1['type']=="imgradio"||$vo1['type']=="imgcheckbox") {</php>
+					&nbsp;&nbsp选项： A.&nbsp;&nbsp;<img width='100px' height='100px' src='{$vo1['value2']}'/>&nbsp;&nbsp;&nbsp;&nbsp;
+					B.&nbsp;&nbsp;<img width='100px' height='100px' src='{$vo1['value3']}'/>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value4']){</php>C.&nbsp;&nbsp;<img width='100px' height='100px' src='{$vo1['value4']}'/>&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<php>if($vo1['value5']){</php>D.&nbsp;&nbsp;<img width='100px' height='100px' src='{$vo1['value5']}'/>&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<php>if($vo1['value6']){</php>E.&nbsp;&nbsp;<img width='100px' height='100px' src='{$vo1['value6']}'/>&nbsp;&nbsp;&nbsp;&nbsp;<php>}</php>
+					<br/><br/>
+					<p align="left">
+					&nbsp;&nbsp结果： A.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][1]!=null) echo($count[$vo1['sequence']][1]);
+					else echo "0";</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					B.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][2]!=null) echo($count[$vo1['sequence']][2]);
+					else echo "0";</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value4']){</php>C.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][3]!=null) echo($count[$vo1['sequence']][3]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value5']){</php>D.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][4]!=null) echo($count[$vo1['sequence']][4]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>if($vo1['value6']){</php>E.&nbsp;&nbsp;<php>if($count[$vo1['sequence']][5]!=null) echo($count[$vo1['sequence']][5]);
+					else echo "0";}</php>&nbsp;&nbsp;&nbsp;&nbsp;
+					<php>}</php>
+					</p>
+				<br/>
+				<br/>
+		</li>
+<hr style="height:1px;border:none;border-top:1px solid #999999;" />
+		</volist> 
+	</ol>
+
+<h2 align="center" style="font-weight:100;"><a href={$url1}>返回</a></h2>
+</div>
+</body>
+</html>

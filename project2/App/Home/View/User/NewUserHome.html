@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+   
+    <script type="text/javascript" src="http://localhost/eclipse/project2/public/js/jquery-2.2.0.js">
+    </script>
+    <script type="text/javascript" src="http://localhost/eclipse/project2//public/js/bootstrap.min.js">
+    </script>
+    <link href="http://localhost/eclipse/project2/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/eclipse/project2/public/css/css_index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost/dev/simditor/styles/simditor.css" />
+</head>
+<style>
+    .test li{
+        list-style: none;
+        height: 50px;
+    }
+</style>
+<body style="background-color: #FBF4F4">
+<br>
+
+<div class="container" >
+    <div class="row">
+
+        <div class="col-md-3">
+            <h2 style="font-weight: 100">我的微课</h2>
+            <br>
+        </div>
+    </div>
+    <div class="row"  style="height: 1000px; background-color: #F1F9EE">
+        <div class="col-md-3">
+            <ul id="myTab" class="nav nav-tabs nav-stacked" style="background-color: #BCC1C7; height: 1000px;">
+                <li class="active"><a href="#a" data-toggle="tab">基本资料</a></li>
+                <li><a href="#b" data-toggle="tab">我的课程</a></li>
+                <li><a href="#c" data-toggle="tab">学习记录</a></li>
+                <li><a href="#d" data-toggle="tab">我的讨论</a></li>
+                <li><a href="#e" data-toggle="tab">我的视频</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9" style="height: 1000px">
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="a" style="background-color: #F1F9EE; height: 1000px">
+                    <br>
+                        <div class="test">
+                          <ul>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <h5 align="right">用户名:</h5>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <h5>{$data['username']}</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <h5 align="right">注册时间:</h5>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <h5>{$data['rtime']}</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row" >
+                                            <div class="col-xs-2">
+                                                <h5 align="right">最后在线时间:</h5>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <h5>{$data['lastonline']}</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <h5 align="right">签到次数:</h5>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <h5>{$signnum}</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <h5 align="right">上传视频数:</h5>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <h5>To be continue!</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <h5 align="right">帖子数:</h5>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <h5>{$bbs1num}</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <p align="center"><a href="#">密码修改</a></p>
+                                </ul>
+
+                        </div>
+
+                </div>
+                <div class="tab-pane fade" id="b" style="background-color: #F1F9EE; height: 1000px">
+                    <div class="container">
+                        
+                        <br>
+                        <br>
+                        <h3 style="font-weight: 100">我收藏的课程:</h3>
+                            <br>
+                            <ul>
+	                            <volist name="mylecture" id="vo">
+									<php>
+										$href="http://".C('URLSET')."/index.php/Home/Video/ShowVideo?id=".$vo['id'];
+										$quxiao="http://".C('URLSET')."/index.php/Home/Video/RmuserLector?id=".$vo['id'].'&page=user';
+									</php>
+									<li>
+										<div class='col-xs-8'>
+											<a href={$href}>{$vo['name']}</a>
+										</div>
+										<div class='col-xs-4'>
+											<a href={$quxiao}>取消收藏</a>
+										</div>
+										
+									</li>
+								</volist>
+							</ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="c" style="background-color: #F1F9EE; height: 1000px">
+                    <div class="container">
+                        <br>
+                        <br>
+                        <h3 style="font-weight: 100">我学习过的课程:</h3>
+                        <ul>
+                             <volist name="learned" id="learned">
+									<php>
+									    $shanchu = 'http://localhost/eclipse/project2/index.php/Home/User/dellec?name='.$learned['lname'];
+									</php>
+									<li>
+										<div class='col-xs-8'>
+											<a href={$learned['lurl']}>{$learned['lname']}</a>
+										</div>
+										<div class='col-xs-4'>
+											<a href={$shanchu}>删除记录</a>
+										</div>
+										
+									</li>
+								</volist>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="d" style="background-color: #F1F9EE; height: 1000px">
+                    <div class="container">
+                        <br>
+                        <br>
+                        <h3 style="font-weight: 100">我参与过的讨论:</h3>
+                        <ul>
+                            <br>
+                            <br>
+                            <li>
+
+                                <h4>发表过:</h4>
+                                <br>
+                                <ul>
+                                	<volist name='bbs1' id='bbs1'>
+                                    	<li>
+                                    		<a href="#">{$bbs1['title']}</a>
+                                    	</li>
+                                    </volist>
+                                    
+                                </ul>
+                            </li>
+                            <br>
+                            <br>
+                            <br>
+                            <li>
+
+                                <h4>评论过:</h4>
+                                <br>
+                                <ul>
+                                    <volist name='bbs2' id='bbs2'>
+                                    	<li>
+                                    		<a href="#">{$bbs2['title']}</a>
+                                    	</li>
+                                    </volist>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="e" style="background-color: #F1F9EE; height: 1000px">
+                    <div class="container">
+                        <br>
+                        <br>
+                        <h3 style="font-weight: 100">我上传过的课程:</h3>
+                        <ul>
+                           <volist name="upfront" id="vo">
+									<php>
+										$uplo='http://localhost/eclipse/project2/index.php/Home/Video/ShowVideo?id='.$vo['leid'];
+									</php>
+									<li>
+										<div class='col-xs-8'>
+											<a href={$uplo}>{$vo['name']}</a>
+										</div>
+										
+										
+									</li>
+								</volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
